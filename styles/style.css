@@ -61,7 +61,7 @@
 
 }
 
-.address-style {
+.contact_text{
     color: #000000;
     width: 237px;
     text-decoration: none;
@@ -173,7 +173,7 @@
 }
 
 
-.buttom {
+.cover__buttom {
     max-width: 256px;
     border: 1px solid #FFFFFF;
     color: #FFF;
@@ -191,7 +191,7 @@
 
 }
 
-.buttom-posision {
+.cover__buttom-posision {
     margin: auto;
     margin-bottom: 51px;
     margin-right: 0;
@@ -207,7 +207,7 @@
     margin: auto;
     margin-top: 179px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: minmax() 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 25px;
 }
 
@@ -314,7 +314,7 @@
     margin-top: 35px;
 }
 
-.elipse-logo {
+.about__logo-figure {
     display: flex;
     background-color: #000;
     border-radius: 100%;
@@ -322,7 +322,7 @@
     height: 240px;
 }
 
-.logo-white {
+.about__logo-img {
     margin: auto;
     width: 148px;
     height: 114px;
@@ -401,6 +401,9 @@
     text-decoration: underline;
 }
 
-.link-nobullit {
+.footer__menu_link:active{
+    text-decoration: none;
+}
+.link-nobullit{
     text-decoration: none;
 }
