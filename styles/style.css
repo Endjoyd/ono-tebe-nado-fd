@@ -32,7 +32,9 @@
     text-decoration: underline;
     list-style: circle;
 }
-
+.header__link_active{
+    text-decoration: none;
+}
 .menu__link:nth-child(1) {
     list-style: none;
 }
@@ -173,7 +175,7 @@
 }
 
 
-.cover__buttom {
+.bet-button {
     max-width: 256px;
     border: 1px solid #FFFFFF;
     color: #FFF;
@@ -191,7 +193,7 @@
 
 }
 
-.cover__buttom-posision {
+.bet-button-posision {
     margin: auto;
     margin-bottom: 51px;
     margin-right: 0;
@@ -401,9 +403,6 @@
     text-decoration: underline;
 }
 
-.footer__menu_link:active{
-    text-decoration: none;
-}
-.link-nobullit{
+.footer__menu_link_active{
     text-decoration: none;
 }
